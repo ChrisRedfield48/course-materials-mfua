@@ -48,16 +48,20 @@
     - Установить [WinGet - Windows Package Manager](https://apps.microsoft.com/detail/9nblggh4nns1?hl=ru-RU&gl=RU) или [с Github](https://github.com/microsoft/winget-cli/releases)
 1. Приложение [Teams](https://teams.microsoft.com/v2/) или браузер [Edge](https://www.microsoft.com/ru-ru/edge/download?form=MA13FW) или в **PowerShell** - `winget install Microsoft.Teams` и `winget install Microsoft.Edge`
 1. **Git** (Git-Bash) [Git-Bash](https://git-scm.com/) или установить в **PowerShell** командой `winget install Git.Git`
-1. Консольный текстовый редактор `Micro` (требуется для редакторивания слияний в **Git**)
+1. **Micro** - консольный текстовый редактор (требуется для редакторивания слияний в **Git**)
     - Установить **Micro** в **Windows**:
     ```shell
     winget install --id=zyedidia.micro -e
     ```
     - Установить **Micro** в **Alt Linux 11**:
     ```shell
-    epmi --auto micro xclip xsel
+    su - -c "epmi --auto micro xclip xsel wl-clipboard"
     ```
-    - Установить **macOS**:
+    - Установить **Micro** в **macOS**:
+    Установить **iTerm2** для удобства работы в консоле, вместо стандартного Terminal.app
+    ```shell
+    brew install --cask iterm2
+    ```
     ```shell
     brew install micro
     ```
@@ -70,11 +74,11 @@
     ```shell
     winget install -e --id ZedIndustries.Zed
     ```
-    - Установка в Alt Linux 11:
+    - Установка в **Alt Linux 11**:
     ```shell
     su - -c "epmp --auto zed"
     ```
-    - Установка в macOS:
+    - Установка в **macOS**:
     ```shell
     brew install --cask zed
     ```
@@ -90,11 +94,11 @@
     ```shell
     winget install -e --id Obsidian.Obsidian
     ```
-    - Установка в Alt Linux 11:
+    - Установка в **Alt Linux 11**:
     ```shell
     su - -c "epmp --auto obsidian"
     ```
-    - Установка в macOS:
+    - Установка в **macOS**:
     ```shell
     brew install --cask obsidian
     ```
