@@ -66,13 +66,17 @@
 1. **Dia** [Dia](https://ru.wikipedia.org/wiki/Dia) - `winget install gnome.Dia` (опционально)
 1. **VSCode** [VSCode](https://code.visualstudio.com/) или в **PowerShell** - `winget install Microsoft.VisualStudioCode`
 1. [Zed](https://zed.dev/?ref=taaft) - это высокопроизводительный, многопользовательский редактор кода с открытым исходным кодом со встроенным ИИ.
-    - Установка в Windows (PowerShell - Администратор):
+    - Установка в **Windows** (PowerShell - Администратор):
     ```shell
     winget install -e --id ZedIndustries.Zed
     ```
     - Установка в Alt Linux 11:
     ```shell
     su - -c "epmp --auto zed"
+    ```
+    - Установка в macOS:
+    ```shell
+    brew install --cask zed
     ```
 1. **Termux** (для Андроид) [Termux](https://termux.dev/en/) - опционально
 1. Компилятор **gcc** (Для Windows MSYS2) [MSYS2](https://www.msys2.org/) или [Clang](https://releases.llvm.org/download.html)  или в **PowerShell** - `winget install LLVM.LLVM` - опционально
@@ -81,7 +85,20 @@
 1. **Virtual Box** - для установки **Alt Образование 11** - для контроллера домена (групповые политики)
 [Virtual Box](https://www.oracle.com/virtualization/virtualbox/) или в **PowerShell** - `winget install --id=Oracle.VirtualBox -e`
     - [Альт Образование 11 для виртуальной машины](https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/education/x86_64/alt-education-11.0-x86_64.iso) - пока не обязательно!
-1. Нейросети [DeepSeek](https://chat.deepseek.com/), [Qwen](https://chat.qwen.ai/) и [Cursor](https://cursor.com/) etc.
+1. **Obsidian** - развитая система личных заметок. Второй мозг it-шника и программиста.
+    - Установка в **Windows** (PowerShell - Администратор):
+    ```shell
+    winget install -e --id Obsidian.Obsidian
+    ```
+    - Установка в Alt Linux 11:
+    ```shell
+    su - -c "epmp --auto obsidian"
+    ```
+    - Установка в macOS:
+    ```shell
+    brew install --cask obsidian
+    ```
+1. **Нейросети** [DeepSeek](https://chat.deepseek.com/), [Qwen](https://chat.qwen.ai/) и [Cursor](https://cursor.com/) etc.
 
 > Периодически следует обновлять все установленные пользователем приложения в Widows. Это удобней делать через **PowerShell** командой `winget upgrade --all`
 
@@ -99,7 +116,7 @@ winget install Microsoft.Teams Git.Git Microsoft.VisualStudioCode Docker.DockerD
 
 Открыть **Powersheell / Git-Bash / Terminal**
 
-Выбрать текстовый редактор **Nano** по умолчанию для Windows/Linux
+Выбрать текстовый редактор **Micro** по умолчанию для Windows/Linux
 ```shell
 git config --global core.editor "micro"
 ```
@@ -242,7 +259,7 @@ winget install -e --id ZedIndustries.Zed
 
 ---
 
-## Вопросы к экзамену
+## Вопросы к экзаменам
 
 * [Вопросы к экзамену по дисциплине «ОСНОВЫ ПРОЕКТИРОВАНИЯ БАЗ ДАННЫХ»](/content/Courses/Basics_database_design/questions.md)
 * [Вопросы к экзамену по дисциплине «ПОДДЕРЖКА И ТЕСТИРОВАНИЕ ПРОГРАММНЫХ МОДУЛЕЙ»](/content/Courses/SupportAndTesting_of_software_modules/questions.md)
