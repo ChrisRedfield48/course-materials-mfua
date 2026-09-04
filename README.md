@@ -30,13 +30,13 @@
 ## Навигация по документу (GOTO)
 
 - [Git](#git)
-- [WSL 2.0 для Windows 10/11](#wsl-20-для-windows-10-и-11)
+- [WSL 2.0 для Windows 10/11](#wsl)
 - [Docker](#docker-разработка-тестирование-и-запуск-различного-по)
 - [Virtual Box/Hyper V](/content/Linux/README.md)
-- [Минимальные настройки VSCode](#минимальные-настройки-vscode)
+- [Минимальные настройки VSCode](#vscode)
 - [Zed](#zed)
-- [Рекомендуемые навыки и умения](#рекомендуемые-навыки-и-умения)
-- [Вопросы к экзаменам](#вопросы-к-экзамену)
+- [Рекомендуемые навыки и умения](#recommendations)
+- [Вопросы к экзаменам](#exam-questions)
 
 ---
 
@@ -138,9 +138,9 @@ git config --global user.email "rosa@mail.ru"
 
 ---
 
-### WSL 2.0 для Windows 10+
+### WSL
 
-(для работы с **Docker** etc.)
+2.0 для Windows 10+ (для работы с **Docker** etc.)
 
 Проверить поддержку **CPU** виртуализации на вашем оборудовании
 
@@ -179,7 +179,9 @@ git config --global user.email "rosa@mail.ru"
 
 ---
 
-### Docker (Разработка, тестирование и запуск различного ПО)
+### Docker
+
+(Разработка, тестирование и запуск различного ПО)
 
 1. [Сначал включите **WSL** на своём компьютере!](#wsl-20-для-windows-10-и-11)
 1. [Загрузить и установить Docker-Desktop](https://www.docker.com/products/docker-desktop/) или командой в **PowerShell** `winget install Docker.DockerDesktop`
@@ -201,7 +203,9 @@ git config --global user.email "rosa@mail.ru"
 
 ---
 
-### Минимальные настройки `VSCode`
+### VSCode
+
+Минимальные настройки
 
 - Включить машстабирование по **Ctrl+WheelMouse**
     - **Settings** -> **Zoom** -> **Mouse Wheel Zoom**
@@ -266,7 +270,9 @@ code .
 
 ---
 
-### Рекомендуемые навыки и умения
+### Recommendations
+
+Рекомендуемые навыки и умения
 
 1. "Слепая печать" на стандартной клавиатуре
     - [Онлайн-клавиатурный тренажер](https://stamina-online.com/ru/)
@@ -277,7 +283,9 @@ code .
 
 ---
 
-## Вопросы к экзаменам
+## Exam questions
+
+Вопросы к экзаменам
 
 * [Вопросы к экзамену по дисциплине «ОСНОВЫ ПРОЕКТИРОВАНИЯ БАЗ ДАННЫХ»](/content/Courses/Basics_database_design/questions.md)
 * [Вопросы к экзамену по дисциплине «ПОДДЕРЖКА И ТЕСТИРОВАНИЕ ПРОГРАММНЫХ МОДУЛЕЙ»](/content/Courses/SupportAndTesting_of_software_modules/questions.md)
