@@ -239,6 +239,7 @@ git config --global user.email "rosa@mail.ru"
 ```shell
 code .
 ```
+*коде точка
 
 [Подробней о настройках VSCode](https://gitflic.ru/project/rurewa/education/blob?file=content/Programming/VCode.md&branch=master&mode=markdown)
 
@@ -246,10 +247,22 @@ code .
 
 ### Zed
 
-Установка в Windows (PowerShell - Администратор):
-```shell
-winget install -e --id ZedIndustries.Zed
-```
+**Zed** - высокопроизводительный, многопользовательский редактор кода с открытым исходным кодом, позиционируется как минималистичный редактор, созданный для скорости и совместной работы с людьми и ИИ
+
+- Горячие клавиши
+    - `Ctrl+~` Открыть/Закрыть интегрированный Терминал
+    - `Ctrl+/` Комментарии кода
+    - Ctrl+, Открыть настройки редактора
+- Шрифты
+    - `Settings`->`Appeance` - Font Family
+    - Шрифт - `Droid Sans Mono`,` `monospace`
+- Табуляция
+    - `Settings`->`tab` - size - 2
+- Автосохранение
+    - `Settings`->`auto save` - after delay
+- Редактор
+- Подсказки
+    - `Settings`->`show type`  -hints
 
 ---
 
