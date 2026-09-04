@@ -1,4 +1,4 @@
-# Конспект занятий
+# Конспект занятий по IT-дисциплинам
 
 ## Навигация по проекту
 
@@ -15,8 +15,8 @@
     - [Основы проектирования баз данных](/content/Courses/Basics_database_design/)
     - [Обеспечение качества функционирования компьютерных систем](/content//Courses/Ensuring_quality_computer_systems_functioning/)
     - [Поддержка и тестирование программных модулей](/content/Courses/SupportAndTesting_of_software_modules/)
-    - [Операционные системы и среды](/content/Courses/OS_and_Environments/)
-    - [Технология разработки и защиты БД](/content/Courses/Database_Development_and_Security_Technology.md/)
+    - [Операционные системы и среды](/content/Courses/OS_and_Environments/README.md)
+    - [Технология разработки и защиты БД](/content/Courses/Database_Development_and_Security_Technology/README.md)
 
 ---
 
