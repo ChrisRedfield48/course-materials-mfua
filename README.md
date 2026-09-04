@@ -49,15 +49,15 @@
 1. Приложение [Teams](https://teams.microsoft.com/v2/) или браузер [Edge](https://www.microsoft.com/ru-ru/edge/download?form=MA13FW) или в **PowerShell** - `winget install Microsoft.Teams` и `winget install Microsoft.Edge`
 1. **Git** (Git-Bash) [Git-Bash](https://git-scm.com/) или установить в **PowerShell** командой `winget install Git.Git`
 1. **Micro** - консольный текстовый редактор (требуется для редакторивания слияний в **Git**)
-    - Установить **Micro** в **Windows**:
+    - Установить в **Windows**:
     ```shell
     winget install --id=zyedidia.micro -e
     ```
-    - Установить **Micro** в **Alt Linux 11**:
+    - Установитьв **Alt Linux 11**:
     ```shell
     su - -c "epmi --auto micro xclip xsel wl-clipboard"
     ```
-    - Установить **Micro** в **macOS**:
+    - Установить в **macOS**:
     Установить **iTerm2** для удобства работы в консоле, вместо стандартного Terminal.app
     ```shell
     brew install --cask iterm2
@@ -66,7 +66,7 @@
     brew install micro
     ```
 1. Регистрация в [Яндекс](https://ya.ru/) или [VK](https://vk.com/) - для регистрации на [Gitflic.ru](gitflic.ru)
-1. Создать публичный репозиторий на [gitflic.ru](gitflic.ru) или [Github](github.com)
+1. Создать публичный репозиторий с `README.md` на [gitflic.ru](gitflic.ru) или [Github](github.com)
 1. **Dia** [Dia](https://ru.wikipedia.org/wiki/Dia) - `winget install gnome.Dia` (опционально)
 1. **VSCode** [VSCode](https://code.visualstudio.com/) или в **PowerShell** - `winget install Microsoft.VisualStudioCode`
 1. [Zed](https://zed.dev/?ref=taaft) - это высокопроизводительный, многопользовательский редактор кода с открытым исходным кодом со встроенным ИИ.
@@ -84,8 +84,8 @@
     ```
 1. **Termux** (для Андроид) [Termux](https://termux.dev/en/) - опционально
 1. Компилятор **gcc** (Для Windows MSYS2) [MSYS2](https://www.msys2.org/) или [Clang](https://releases.llvm.org/download.html)  или в **PowerShell** - `winget install LLVM.LLVM` - опционально
-1. **WSL 2.0** - установить Ubuntu - для **Docker** etc. [WSL 2.0 для Windows 10/11](#wsl-20-для-windows-1011-может-понадобиться-для-работы-с-docker-etc)
-1. **Docker** - Для Windows [Загрузить и установить Docker-Desktop](https://www.docker.com/products/docker-desktop/) или в **PowerShell** - `winget install Docker.DockerDesktop`. [Для Linux](/content/Linux/README.md)
+1. **WSL 2.0** - установить **Ubuntu** - для **Docker** etc. [WSL 2.0 для Windows 10/11](#wsl-20-для-windows-1011-может-понадобиться-для-работы-с-docker-etc)
+1. **Docker** - Для **Windows** [Загрузить и установить Docker-Desktop](https://www.docker.com/products/docker-desktop/) или в **PowerShell** - `winget install Docker.DockerDesktop`. [Для Linux](/content/Linux/README.md)
 1. **Virtual Box** - для установки **Alt Образование 11** - для контроллера домена (групповые политики)
 [Virtual Box](https://www.oracle.com/virtualization/virtualbox/) или в **PowerShell** - `winget install --id=Oracle.VirtualBox -e`
     - [Альт Образование 11 для виртуальной машины](https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/education/x86_64/alt-education-11.0-x86_64.iso) - пока не обязательно!
@@ -120,7 +120,7 @@ winget install Microsoft.Teams Git.Git Microsoft.VisualStudioCode Docker.DockerD
 
 Открыть **Powersheell / Git-Bash / Terminal**
 
-Выбрать текстовый редактор **Micro** по умолчанию для Windows/Linux
+Выбрать текстовый редактор **Micro** по умолчанию для **Windows/Linux**
 ```shell
 git config --global core.editor "micro"
 ```
@@ -140,7 +140,7 @@ git config --global user.email "rosa@mail.ru"
 
 ### WSL 2.0 для Windows 10+
 
-(для работы с Docker etc.)
+(для работы с **Docker** etc.)
 
 Проверить поддержку **CPU** виртуализации на вашем оборудовании
 
@@ -171,7 +171,7 @@ git config --global user.email "rosa@mail.ru"
             - `sl`
             - `ascii -d`
             - `inxi -F`
-    - Для старых версий Windows 10. **(Не обязательно!)** Если обновления **Ubuntu** завершаться ошибкой, то надо в **Windows PowerShell** (Администратор) задать версию **WSL 2** по умолчанию: `wsl --set-default-version 2`
+    - Для старых версий **Windows 10**. **(Не обязательно!)** Если обновления **Ubuntu** завершаться ошибкой, то надо в **Windows PowerShell** (Администратор) задать версию **WSL 2** по умолчанию: `wsl --set-default-version 2`
 
 > Если компьютер не тянет для **WSL 2.0** и **Docker**, то можно попробовать выполнять задачи в [**Codespace**](https://github.com/features/codespaces) (но не желательно, т.к. очень ограниченный функционал!)
 
@@ -211,7 +211,7 @@ git config --global user.email "rosa@mail.ru"
 
 Установка расширений
 
-> ### Установка расширений для VS Code может быть заблокирована!
+> ### Установка расширений для `VS Code` может быть заблокирована!
 
 Временное решение, установка и обновление расширений вручную:
 - [Открываем сайт загрузчика расширений https://vsix.2i.gs/](https://vsix.2i.gs/)
@@ -221,7 +221,8 @@ git config --global user.email "rosa@mail.ru"
 
 ![VS Code](/content/img/VSCODE_ext.jpg)
 
-- **FiveServer**(LiveServer) - превью локального HTML/JS сайта
+- [WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
+- **FiveServer**(LiveServer) - превью локального `HTML/JS` сайта
     - [LiveServer(FiveServer)](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server)
 - **Trailing Spaces** - удаление "паразитных" пробелов
     - [Trailing Spaces (опционально)](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
@@ -229,10 +230,10 @@ git config --global user.email "rosa@mail.ru"
 - [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
   **Markdown Syntax Highlighting** - подсветка синтаксиса в **Mermaid**
 - [Mermaid Markdown Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=bpruitt-goddard.mermaid-markdown-syntax-highlighting)
+- [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 - [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
-- [WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
 
-Открыть и закрыть интегрированный терминал **VS Code** по команде **Ctrl+~** (контрл тильда)
+Открыть и закрыть интегрированный терминал **VS Code** по команде **Ctrl+~** (контрл тильда(Ё))
 
 Для запуска **VS Code** в **WSL** (Ubuntu) в Windows выполните в терминале **Ubuntu** команду:
 ```shell
