@@ -31,7 +31,7 @@
 
 - [Git](#git)
 - [WSL 2.0 для Windows 10/11](#wsl)
-- [Docker](#docker-разработка-тестирование-и-запуск-различного-по)
+- [Docker](#docker)
 - [Virtual Box/Hyper V](/content/Linux/README.md)
 - [Минимальные настройки VSCode](#vscode)
 - [Zed](#zed)
@@ -187,7 +187,7 @@ git config --global user.email "rosa@mail.ru"
 
 (Разработка, тестирование и запуск различного ПО)
 
-1. [Сначал включите **WSL** на своём компьютере!](#wsl-20-для-windows-10-и-11)
+1. [Сначал включите **WSL** на своём компьютере!](#wsl)
 1. [Загрузить и установить Docker-Desktop](https://www.docker.com/products/docker-desktop/) или командой в **PowerShell** `winget install Docker.DockerDesktop`
 1. Выполнять авторизацию в **Docker-Desktop** не обязательно (можно пропустить или авторизироваться через Google), указать `personal`;
 1. Перезагрузить компьютер;
