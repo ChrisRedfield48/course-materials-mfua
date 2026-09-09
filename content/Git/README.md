@@ -252,18 +252,14 @@ git log -p -3
 ```shell
 git checkout 94120de
 ```
-
 Вернуться на последний коммит
-
 ```shell
 git switch -
 ```
-
 или
 ```shell
 git checkout master
 ```
-
 или вместо **master** укажите **main**
 
 Показать настройки текущего (локального) git-репозитория
@@ -284,41 +280,32 @@ git checkout master
 ```shell
 git branch
 ```
-
 или показать все ветки (в т.ч. удалённые)
-
 ```shell
 git branch --all
 ```
-
 Создать новую локальную ветку
 ```shell
 git branch test
 ```
-
 где test - это имя создаваемой ветки
 
 Переключиться на другую ветку
 ```shell
 git switch test
 ```
-
 или
-
 ```shell
 git checkout test
 ```
-
 ещё можно создать новую ветку с автоматическим переходом в неё
 ```shell
 git checkout -b test
 ```
-
 Отправить новую ветку на удалённый сервер
 ```shell
 git push --set-upstream origin test
 ```
-
 где `test` -  имя отправляемой ветки
 
 Удалить локальную ветку
