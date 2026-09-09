@@ -282,13 +282,17 @@ git branch
 ```
 или показать все ветки (в т.ч. удалённые)
 ```shell
+git branch -r
+```
+или
+```shell
 git branch --all
 ```
 Создать новую локальную ветку
 ```shell
 git branch test
 ```
-где test - это имя создаваемой ветки
+где `test` - это имя создаваемой ветки
 
 Переключиться на другую ветку
 ```shell
@@ -312,7 +316,6 @@ git push --set-upstream origin test
 ```shell
 git branch -d test
 ```
-
 Удалить удалённую ветку
 ```shell
 git push origin --delete test
