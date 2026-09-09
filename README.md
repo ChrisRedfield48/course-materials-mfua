@@ -55,7 +55,7 @@
     ```
     - Установить **Ubuntu WSL**:
     ```shell
-    sudo apt update && sudo apt install micro xclip xsel
+    sudo apt update && sudo apt install micro xsel
     ```
     - Установить **Alt Linux 11**:
     ```shell
