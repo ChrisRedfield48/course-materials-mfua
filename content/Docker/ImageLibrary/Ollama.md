@@ -1,13 +1,20 @@
 ## Запуск Ollama в контейнере
 
-### 1. Ollama+phi4
+> **Это задание лучше выполнять в WSL или в другом полноценном Linux!**
+
+- > Никогда в разработке не используйте русские имена файлов и каталогов!
+- > Никогда в разработке не используйте пробелы и спец.символы в именах файлов и каталогов!
+- > Перед созданием проекта убедитесь, что порт 8084 не занят другим приложением!
+- > Создание проекта лучше начать с "чистого листа", предварительно остановив и удалив все другие контейнеры и образы!
+
+### Вариант 1: Ollama+phi4 CLI (командный интерфейс)
 
 Получить ollama:
 ```shell
 docker run -d -v ollama_data:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
 ```
 ```shell
-docker exec -it ollama ollama run phi4
+docker exec -it ollama ollama run llama3.2:1b
 ```
 выйти из командного режима нейросети:
 ```shell
@@ -20,7 +27,7 @@ docker exec -it ollama ollama run phi4
 
 ---
 
-### 2. Open WebUI и Ollama
+### 2. Open WebUI и Ollama (Web-интерфейс)
 
 ```shell
 docker run -d -p 3000:8081 -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
